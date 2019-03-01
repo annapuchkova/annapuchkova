@@ -1,0 +1,63 @@
+
+/* BEGIN (write your solution here) */
+.wrapper {
+display:block;
+padding:20px 50px 0 50px;
+}
+#header, #main, #footer {
+   margin-bottom: 12px;
+}
+#header {
+    margin: 0 0 20px 0;
+    text-align: center;
+    display:block;
+}
+#header p{
+    margin: 5px 0 0 0;
+}
+#footer {
+    margin: 64px 0 0 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+h1 {
+    font-size: 36px;
+    margin: 0 auto; 
+}
+h2 {
+    font-size: 32px;
+    margin: 0 0 8px 0; 
+    border-bottom: 1px grey solid;
+    padding: 0 0 5px 0;
+}
+h3 {
+    font-size: 20px;
+    margin: 0; 
+}
+.step p:nth-child(1)  {
+   font-size: 18px;
+   margin: 0; 
+   font-weight: bold;
+}
+.step p:nth-child(2)  {
+
+   margin: 5px 0 15px 0; 
+}
+.step p span {
+font-style: italic;
+font-size: 12px;
+}
+.step ul {
+margin: 0 0 15px 0;
+}
+div#footer p:nth-child(1)  {
+   margin: 0; 
+   font-weight: bold;
+}
+div#footer p:nth-child(2)  {
+   margin: 5px 0 0 0; 
+}
+/* END */
